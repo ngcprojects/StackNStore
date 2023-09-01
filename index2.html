@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StackNStore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inconsolata:wght@500&
+    family=Karla&family=Lumanosimo&family=Pacifico&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <style>
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 0.75rem;
+    }
+    .TeamCredits{
+        font-family: 'Black Ops One', cursive;
+        font-weight: bolder;
+        font-size: 45px;
+    }
+    .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(223, 169, 207, 0.1);
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #444;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+
+        .team-members {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+          margin-top: 20px;
+        }
+
+  .profile-box {
+    background-color: #87abe0;
+    color: #000;
+    border: 1px solid #87abe0;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-box a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .fs-2{
+    font-family: oswald;
+    font-weight: 700;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .contact-item-1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #279EFF;
+  }
+  </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="images/WhatsApp Image 2023-08-30 at 16.53.55(1).jpeg" alt="logo" height="45"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  My Folders
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/10RTCFnT8kofQexSIBiUZ_LgkTC2ijW6w?usp=drive_link">BALLB</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1BqWJBToJqEGA2J57Cd2FygY1TiGKQHjs?usp=drive_link">BBA</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/11GOkrZgbAOWovZ6NUcti0eUe9X4QD7c5?usp=drive_link">BCOM</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1NwNlRBlQPsQFDBnAquSY7wLovwYZLiuY?usp=drive_link">CSE</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1AsQWW7-BzPkgailg5OPxJZiZsFsb_9XY?usp=drive_link">ECE</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1t5-xgBEqPOJDPtgiW4CDz2OPEOznznJp?usp=drive_link">LAW</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1wRnbK0JA29MNdRgQsvMlFjaASySOvuq2?usp=drive_link">MECH</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1i7Vov1gswTmXdbbRYMfwPaFCvKn2axyj?usp=drive_link">MIC</a></li>
+                  <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1zapoiq_oTyXtNwDjR6P4777aEBizrfOW?usp=drive_link">MIS</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Contact Us</h1>
+    <div class="contact-form">
+        <form action="mailto:cloud.club@vitap.ac.in" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <br>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <br>
+          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+          <br>
+          <input type="submit" value="Send Message">
+        </form>
+      </div> 
+  </div>
+  <div class="contact">
+    <div class="contact-item-1 pt-2"><a href="https://instagram.com/nextgencloud_vitap?igshid=NzZhOTFlYzFmZQ=="><img src="insta.svg" height="25"></a></div>
+    <div class="contact-item-1 pt-1"><a href="https://www.linkedin.com/company/nextgen-cloud-club-vit-ap/mycompany/"><img src="linkedin.svg" height="35"></a></div>
+    <div class="contact-item-1 pt-2"><a href="https://www.youtube.com/@NextGenCloudVITAP"><img src="youtube.svg" height="25"></a></div>
+  </div>
+  <div class="container">
+    <footer class="row d-flex row-cols-sm-3 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <p class="text-body-secondary">© 2023</p>
+      </div>
+
+      <div class="col mb-3">
+        <img src="images/NGClogo.jpg" class="logo pt-2">
+      </div>
+      <div class="col mb-3">
+        <img src="images/VITlogo.png" class="logo pt-2" style="height: 100px;">
+      </div>
+      <div class="col mb-3">
+      </div>
+      <div class="col mb-3 text-center">
+        <p class="fs-2" style="font-family: oswald;">Developed By Team NGC</p>
+        <a href="ourteam.html"><button type="button" class="btn btn-outline-primary btn-lg px-4 me-sm-3 mt-3">Our Team</button></a>
+      </div>
+    </footer>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
